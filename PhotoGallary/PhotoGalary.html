@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhotoGalary</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content">
+            <div class="image-div">
+                <img src="./FirstBird.jpeg" alt="sample photo">
+                <img src="./SecondBird.jpeg" alt="sample photo">
+                <img src="./ThirdBird.jpeg" alt="sample photo">
+                <img src="./FouthBird.jpeg" alt="sample photo">
+                <img src="./SixthBird.jpeg" alt="sample photo">
+                <img src="./FithBird.jpeg" alt="sample photo">
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+.image-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+}
+img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 23vw;
+}
+</style>
+</html>
